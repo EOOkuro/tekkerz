@@ -1,9 +1,5 @@
 import { Link } from "react-router-dom";
 export default function Footer() {
-  return (
-    <footer className="site-footer">
-      <p>© {new Date().getFullYear()} Tekkerz · Soccer brand for the next gen</p>
-      <p><Link to="/contact">Contact</Link> · <Link to="/advertise">Advertise</Link> · <Link to="/partners">Partners &amp; Sponsors</Link></p>
-    </footer>
-  );
+ const brand = import.meta.env.VITE_SITE_BRAND || "Tekkerz";
+ return <footer className="site-footer"><p>© {new Date().getFullYear()} {brand}</p><p><Link to="/events">Explore</Link> · <Link to="/advertise">Partnerships</Link> · <a href="mailto:hello@tekkerz.co">Contact</a></p></footer>;
 }

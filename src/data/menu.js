@@ -1,4 +1,4 @@
-// Generated from WordPress nav_menu_item rows.
+// Site-specific navigation
 export const MENU = [
   {
     "label": "Home",
@@ -6,18 +6,28 @@ export const MENU = [
     "children": []
   },
   {
-    "label": "Membership",
-    "to": "/megcityfc-2",
-    "children": []
-  },
-  {
-    "label": "MegCityFC",
-    "to": "/megcityfc",
-    "children": []
-  },
-  {
     "label": "Events",
     "to": "/events",
+    "children": []
+  },
+  {
+    "label": "Street Soccer",
+    "to": "/chicago-street-soccer-tournament",
+    "children": []
+  },
+  {
+    "label": "1v1",
+    "to": "/1v1",
+    "children": []
+  },
+  {
+    "label": "Partners",
+    "to": "/partners",
+    "children": []
+  },
+  {
+    "label": "Advertise",
+    "to": "/advertise",
     "children": []
   }
 ];

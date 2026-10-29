@@ -1,4 +1,4 @@
-:root { --primary:#7E53F9; --ink:#1E1E1E; --body:#656565; --line:#D9D9D9; --max:1170px; }
+:root { --primary:#e9dfc9; --ink:#1E1E1E; --body:#656565; --line:#D9D9D9; --max:1170px; }
 *,*::before,*::after { box-sizing:border-box; }
 body { margin:0; font-family:"Barlow",sans-serif; font-size:18px; line-height:1.7; color:var(--body); }
 h1,h2,h3,h4,h5,h6 { font-family:"Bebas Neue","Barlow Condensed",sans-serif; color:var(--ink); line-height:1.2; letter-spacing:.02em; }
@@ -27,3 +27,13 @@ img { max-width:100%; height:auto; }
   .nav.is-open { display:block; } .nav ul { flex-direction:column; gap:10px; }
   .sub { display:flex; position:static; border:0; padding:4px 0 4px 14px; }
 }
+
+.wordmark{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:-.03em;font-size:21px;line-height:1;color:#111}
+.wordmark-mark{display:grid;place-items:center;background:var(--primary);color:#09090b;font-family:'Bebas Neue',sans-serif;font-size:28px;min-width:48px;height:48px;padding:0 5px}
+.wordmark small{display:block;font-size:8px;letter-spacing:.15em;margin-top:7px;font-weight:800;color:#777}
+.site-header{height:88px;padding:0 clamp(18px,4vw,56px)}
+.logo{display:none}
+.nav a{font-size:12px;letter-spacing:.1em}
+.site-footer{background:#0c0d10;color:#a5a5a5;border-color:#28292c}
+.site-footer a{color:#fff}
+@media(max-width:900px){.nav{top:88px}}

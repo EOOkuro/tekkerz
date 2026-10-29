@@ -1,17 +1,17 @@
-# Tekkerz – React rebuild of tekkerz.co (WordPress / Yorn + Elementor)
+# Tekkerz
 
-    npm install && npm run dev      # local
-    npm run build                   # Vercel: framework Vite, output dir dist (vercel.json handles SPA routing)
+Independent Vite + React site extracted from the Tekkerz project.
 
-## Images / wp-content as storage
-All images go through `src/lib/assets.js` → `wp("uploads/2026/10/tekkerz-logo.png")`.
-Base URL comes from `VITE_WP_CONTENT_URL` (default `https://tekkerz.co/wp-content`). Copy `.env.example` to `.env`, or set it in Vercel project settings
-to point at a bucket/CDN that mirrors wp-content. Keep WordPress hosting (or a mirror) alive for those files.
+## Run locally
+```bash
+npm install
+npm run dev
+npm run build
+```
 
-## Structure
-- `src/data/pages.json` – 32 published pages extracted from the DB (Elementor → blocks). `src/data/menu.js` – nav tree from `wp_nav_menu_item`.
-- `src/pages/Home.jsx` – the split "Tekkerz / MegCity Soccer / MegCity Hoops" landing page (your custom HTML, ported).
-- `src/pages/Page.jsx` + `src/components/Blocks.jsx` – render any page by slug; unsupported widgets show a dashed TODO box.
+Deploy this folder as its own Vercel project. Set the project's root directory to `tekkerz` if deploying from the combined repository.
 
-## Not carried over (needs rebuilding)
-Slider Revolution, HubSpot forms, WPForms/CF7, Stripe button, LA-Kit events/team/banner widgets, WooCommerce (shop/cart/checkout), the 6 `la_event` posts, Yorn theme CSS/footer template.
+## Notes
+- This site has its own homepage, navigation, visual identity and page collection.
+- Original page content and WordPress-hosted media are retained where assigned to this brand.
+- Some original WordPress widgets/forms were placeholders in the source export and may need to be rebuilt before launch.
