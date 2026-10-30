@@ -44,9 +44,6 @@ body.is-home{width:100%;height:100vh;overflow:hidden;font-family:'Barlow',sans-s
 .side-t:hover .t-imgwrap img{filter:brightness(0.7) contrast(1.02);}
 .t-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,11,9,0.55) 0%,rgba(12,11,9,0.35) 40%,rgba(12,11,9,0.92) 100%);pointer-events:none;}
 
-.side-t .side-img{object-position:center 30%;filter:brightness(0.6) contrast(1.05);}
-.side-t:hover .side-img{filter:brightness(0.75) contrast(1.02);}
-
 /* ══════════════════ MEGCITY SOCCER ══════════════════ */
 .side-m{background:var(--mc-black);}
 .side-m .side-img{filter:saturate(1.05) brightness(0.5);object-position:center 40%;}
