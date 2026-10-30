@@ -1,98 +1,30 @@
 
-
-:root{
-  --tk-black:#0c0b09;
-  --tk-cream:#f0e6d0;
-  --tk-cream2:#c8b898;
-  --tk-white:#fff;
-  --mc-purple:#5b1fa0;
-  --mc-dpurple:#2d0a5e;
-  --mc-blue:#1a5fd4;
-  --mc-white:#fff;
-  --mc-black:#080612;
-  --hp-orange:#b18aff;
-  --hp-dorange:#4a2d8f;
-  --hp-black:#0a0810;
-  --tr:0.65s cubic-bezier(0.77,0,0.175,1);
-}
-body.is-home{width:100%;height:100vh;overflow:hidden;font-family:'Barlow',sans-serif;cursor:pointer;}
-
-.split{display:flex;width:100%;height:100vh;position:relative;}
-.side{position:relative;flex:1 1 0;height:100%;overflow:hidden;transition:flex-grow var(--tr);cursor:pointer;border-right:1px solid rgba(255,255,255,0.08);}
-.side:last-child{border-right:none;}
-
-.split:has(.side-t:hover) .side-t{flex-grow:3;}
-.split:has(.side-t:hover) .side-m,
-.split:has(.side-t:hover) .side-h{flex-grow:1;}
-
-.split:has(.side-m:hover) .side-m{flex-grow:3;}
-.split:has(.side-m:hover) .side-t,
-.split:has(.side-m:hover) .side-h{flex-grow:1;}
-
-.split:has(.side-h:hover) .side-h{flex-grow:3;}
-.split:has(.side-h:hover) .side-t,
-.split:has(.side-h:hover) .side-m{flex-grow:1;}
-
-.side-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:filter .5s;}
-
-/* ══════════════════ TEKKERZ ══════════════════ */
-.side-t{background:#000;}
-.t-imgwrap{position:absolute;inset:0;display:grid;grid-template-rows:1fr 1fr;gap:2px;}
-.t-imgwrap img{width:100%;height:100%;object-fit:cover;transition:filter .5s;filter:brightness(0.55) contrast(1.05);}
-.t-imgwrap img:first-child{object-position:center top;}
-.t-imgwrap img:last-child{object-position:center 30%;}
-.side-t:hover .t-imgwrap img{filter:brightness(0.7) contrast(1.02);}
-.t-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,11,9,0.55) 0%,rgba(12,11,9,0.35) 40%,rgba(12,11,9,0.92) 100%);pointer-events:none;}
-
-/* ══════════════════ MEGCITY SOCCER ══════════════════ */
-.side-m{background:var(--mc-black);}
-.side-m .side-img{filter:saturate(1.05) brightness(0.5);object-position:center 40%;}
-.side-m:hover .side-img{filter:saturate(1.2) brightness(0.62);}
-.m-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(45,10,94,0.55) 0%,rgba(45,10,94,0.35) 40%,rgba(8,6,18,0.92) 100%);pointer-events:none;}
-
-/* ══════════════════ MEGCITY HOOPS ══════════════════ */
-.side-h{background:var(--hp-black);}
-.side-h .side-img{filter:saturate(1.05) brightness(0.5);object-position:center 40%;}
-.side-h:hover .side-img{filter:saturate(1.2) brightness(0.62);}
-.h-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(74,45,143,0.55) 0%,rgba(74,45,143,0.35) 40%,rgba(10,8,16,0.92) 100%);pointer-events:none;}
-
-.grain{position:absolute;inset:0;opacity:0.02;pointer-events:none;
-  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
-
-.content{position:relative;z-index:10;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding:0 6% 9% 6%;}
-.tag{display:inline-flex;align-items:center;gap:8px;margin-bottom:12px;opacity:0;animation:fadeUp .7s .3s forwards;}
-.tagbar{width:18px;height:2px;}
-.tagtext{font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:700;letter-spacing:0.3em;text-transform:uppercase;white-space:nowrap;}
-.title{font-family:'Bebas Neue',sans-serif;font-size:clamp(34px,4.6vw,64px);line-height:0.88;color:#fff;margin-bottom:12px;opacity:0;animation:fadeUp .7s .48s forwards;}
-.pills{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:16px;opacity:0;animation:fadeUp .7s .65s forwards;}
-.pill{font-size:8.5px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:4px 8px;border:1px solid rgba(255,255,255,0.18);color:rgba(255,255,255,0.6);white-space:nowrap;}
-.desc{font-size:12px;line-height:1.55;color:rgba(255,255,255,0.42);max-width:230px;margin-bottom:22px;opacity:0;animation:fadeUp .7s .8s forwards;}
-.cta{display:inline-flex;align-items:center;gap:8px;font-family:'Bebas Neue',sans-serif;font-size:14px;letter-spacing:0.12em;text-decoration:none;padding:11px 22px 9px;transition:transform .2s,box-shadow .2s;width:fit-content;opacity:0;animation:fadeUp .7s .94s forwards;}
-.cta:hover{transform:translateY(-2px);}
-
-.tagbar.t{background:var(--tk-cream);} .tagtext.t{color:var(--tk-cream2);}
-.cta.t{color:var(--tk-black);background:var(--tk-cream);clip-path:polygon(0 0,calc(100% - 10px) 0,100% 100%,10px 100%);}
-.cta.t:hover{box-shadow:0 6px 20px rgba(240,230,208,0.15);}
-
-.tagbar.m{background:var(--mc-blue);} .tagtext.m{color:rgba(255,255,255,0.55);}
-.cta.m{color:#fff;background:var(--mc-blue);clip-path:polygon(10px 0,100% 0,calc(100% - 10px) 100%,0 100%);}
-.cta.m:hover{box-shadow:0 6px 26px rgba(26,95,212,0.45);}
-
-.tagbar.h{background:var(--hp-orange);} .tagtext.h{color:rgba(255,255,255,0.55);}
-.cta.h{color:#fff;background:var(--hp-orange);clip-path:polygon(0 0,100% 0,100% 100%,10px 100%);}
-.cta.h:hover{box-shadow:0 6px 26px rgba(177,138,255,0.45);}
-
-.choose{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);z-index:300;pointer-events:none;opacity:0;animation:fadeIn 1s 2.2s forwards;white-space:nowrap;}
-.choose span{font-family:'Bebas Neue',sans-serif;font-size:9px;letter-spacing:0.3em;color:rgba(255,255,255,0.25);}
-.split:hover .choose{opacity:0!important;transition:opacity .15s;}
-
-@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
-@keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
-
-@media(max-width:900px){
-  body.is-home{overflow-y:auto;}
-  .split{flex-direction:column;height:auto;min-height:100vh;}
-  .side{width:100%!important;height:38vh;flex:none!important;border-right:none;border-bottom:1px solid rgba(255,255,255,0.08);}
-  .choose{display:none;}
-  .title{font-size:38px;}
-}
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&family=Barlow+Condensed:wght@500;600;700;800;900&family=Bebas+Neue&display=swap');
+:root{--accent:#e9dfc9;--deep:#0a0b0e;--paper:#f5f3ed;}
+body.is-home{margin:0;background:var(--deep);color:#fff;font-family:Barlow,sans-serif;}
+body.is-home .site-header, body.is-home .site-footer{display:none;}
+.brand-home{background:var(--deep);color:#fff;min-height:100vh;}
+.hero{min-height: min(820px,100vh);position:relative;overflow:hidden;display:flex;align-items:flex-end;padding:clamp(30px,6vw,92px);isolation:isolate;}
+.hero-image,.hero-shade{position:absolute;inset:0;z-index:-2;}
+.hero-image{background-size:cover;background-position:center;transform:scale(1.02);}
+.tk-image{background-image:url("https://res.cloudinary.com/zuywi9ih/image/upload/v1793326467/IMG_1494_Original.jpg");}
+.mc-image{background-image:url("https://res.cloudinary.com/zuywi9ih/image/upload/v1787265313/bbcf6854-2f12-4bdb-aead-fcdcb802d6ee.jpg");}
+.cbl-image{background-image:url("https://res.cloudinary.com/zuywi9ih/image/upload/f_auto,q_auto/african-american-teenage-boy-concentrated-playing-basketball");}
+.hero-shade{z-index:-1;background:linear-gradient(90deg,rgba(5,6,8,.88) 0%,rgba(5,6,8,.54) 52%,rgba(5,6,8,.12) 100%),linear-gradient(0deg,rgba(5,6,8,.75),transparent 55%);}
+.eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:800;color:var(--accent);margin:0 0 24px;}
+.hero h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(64px,10.5vw,150px);line-height:.79;letter-spacing:-.025em;margin:0;max-width:1000px;color:#fff;}
+.hero h1 em{font-style:normal;color:var(--accent);}
+.hero-copy{max-width:490px;font-size:clamp(16px,1.6vw,20px);line-height:1.5;color:rgba(255,255,255,.76);margin:28px 0 30px;}
+.hero-actions{display:flex;align-items:center;gap:28px;flex-wrap:wrap;}
+.hero-button{display:inline-flex;align-items:center;gap:32px;background:var(--accent);color:#08090b;padding:16px 20px;text-transform:uppercase;font-weight:900;font-size:12px;letter-spacing:.08em;}
+.hero-button:hover{color:#08090b;transform:translateY(-2px);}
+.hero-button span{font-size:18px;}
+.text-link{color:#fff;border-bottom:1px solid rgba(255,255,255,.5);padding:10px 0;font-size:13px;font-weight:700;}
+.hero-index{display:flex;gap:36px;margin-top:64px;color:rgba(255,255,255,.5);font-size:10px;font-weight:700;letter-spacing:.16em;}
+.feature-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:#2a2b2e;border-top:1px solid #2a2b2e;}
+.feature-row>div{background:#101114;padding:clamp(26px,4vw,58px);min-height:230px;}
+.feature-number{font-size:11px;color:var(--accent);letter-spacing:.2em;font-weight:900;}
+.feature-row h2{font-family:'Bebas Neue',sans-serif;font-size:clamp(27px,3vw,40px);margin:22px 0 10px;color:#fff;}
+.feature-row p{font-size:15px;line-height:1.55;color:#a7a8ab;max-width:340px;}
+.feature-row a{display:inline-block;margin-top:14px;color:var(--accent);font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.07em;}
+@media(max-width:700px){.hero{min-height:88vh;padding:28px 22px 36px;}.hero-shade{background:linear-gradient(0deg,rgba(5,6,8,.94),rgba(5,6,8,.25) 100%);}.hero h1{font-size:clamp(58px,16vw,96px);}.hero-index{gap:16px;margin-top:44px;flex-wrap:wrap;}.feature-row{grid-template-columns:1fr;}.feature-row>div{min-height:0;}}
