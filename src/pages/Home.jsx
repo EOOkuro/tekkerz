@@ -1,10 +1,80 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import { wp } from "../lib/assets.js";
 import "../styles/home.css";
+
 export default function Home() {
- useEffect(()=>{document.title="Tekkerz — Culture Moves the Game";document.body.classList.add("is-home");return()=>document.body.classList.remove("is-home")},[]);
- return <main className="brand-home tk-home">
-   <section className="hero hero-tekkerz"><div className="hero-image tk-image"></div><div className="hero-shade"></div><div className="hero-content"><p className="eyebrow">Independent soccer culture · Chicago</p><h1>THE GAME<br/><em>BEYOND</em><br/>THE LINES.</h1><p className="hero-copy">Street soccer, tournaments, music, community and the next wave of the game.</p><div className="hero-actions"><Link className="hero-button" to="/events">Explore events <span>↗</span></Link><Link className="text-link" to="/chicago-street-soccer-tournament">Play with us</Link></div><div className="hero-index"><span>01 / CULTURE</span><span>CHICAGO, IL</span></div></div></section>
-   <section className="feature-row"><div><span className="feature-number">01</span><h2>PLAY DIFFERENT.</h2><p>Small-sided formats, open runs and tournaments built around the joy of playing.</p><Link to="/1v1">Find your game ↗</Link></div><div><span className="feature-number">02</span><h2>MAKE A SCENE.</h2><p>Sport meets sound, art and neighborhood energy at Tekkerz events.</p><Link to="/chicago-street-soccer-music-festival">See the festival ↗</Link></div><div><span className="feature-number">03</span><h2>BUILD WHAT'S NEXT.</h2><p>A platform for players, creators, partners and people moving the culture forward.</p><Link to="/advertise">Partner with Tekkerz ↗</Link></div></section>
- </main>
+  useEffect(() => {
+    document.title = "Tekkerz | MegCity";
+    document.body.classList.add("is-home");
+    return () => document.body.classList.remove("is-home");
+  }, []);
+  return (
+    <>
+
+<div className="split">
+  <div className="choose"><span>CHOOSE YOUR PATH</span></div>
+
+  
+  <div className="side side-t">
+    <img className="side-img" src="https://res.cloudinary.com/zuywi9ih/image/upload/v1793326467/IMG_1494_Original.jpg" alt="Tekkerz street soccer" />
+    <div className="t-overlay"></div>
+    <div className="grain"></div>
+    <div className="content">
+      <div className="tag"><div className="tagbar t"></div><span className="tagtext t">Tekkerz · Chicago</span></div>
+      <h1 className="title">CULTURE</h1>
+      <div className="pills">
+        <span className="pill">Street Soccer</span>
+        <span className="pill">Festivals</span>
+        <span className="pill">Pick Up</span>
+        <span className="pill">Events</span>
+      </div>
+      <p className="desc">Chicago's soccer culture. Tournaments, events and the brand behind next soccer gen.</p>
+      <Link to="/events" className="cta t">Enter Tekkerz →</Link>
+    </div>
+  </div>
+
+  
+  <div className="side side-m">
+    <img className="side-img" src="https://res.cloudinary.com/zuywi9ih/image/upload/v1787265313/bbcf6854-2f12-4bdb-aead-fcdcb802d6ee.jpg" alt="MegCity Soccer" />
+    <div className="m-overlay"></div>
+    <div className="grain"></div>
+    <div className="content">
+      <div className="tag"><div className="tagbar m"></div><span className="tagtext m">MegCity · South Side</span></div>
+      <h1 className="title">SOCCER</h1>
+      <div className="pills">
+        <span className="pill">Community Clubs</span>
+        <span className="pill">Futsal</span>
+        <span className="pill">Youth &amp; Adult</span>
+        <span className="pill">Pro Pathways</span>
+      </div>
+      <p className="desc">From youth to adult leagues. Affordable, accessible soccer for every generation on the South Side.</p>
+      <Link to="/megcityfc" className="cta m">Enter MegCity Soccer →</Link>
+    </div>
+  </div>
+
+  
+  <div className="side side-h">
+    <img className="side-img" src="https://res.cloudinary.com/zuywi9ih/image/upload/f_auto,q_auto/african-american-teenage-boy-concentrated-playing-basketball" alt="MegCity Hoops" />
+    <div className="h-overlay"></div>
+    <div className="grain"></div>
+    <div className="content">
+      <div className="tag"><div className="tagbar h"></div><span className="tagtext h">MegCity · South Side</span></div>
+      <h1 className="title">HOOPS</h1>
+      <div className="pills">
+        <span className="pill">Community Leagues</span>
+        <span className="pill">Skills Training</span>
+        <span className="pill">Youth &amp; Adult</span>
+        <span className="pill">Runs & Tournaments</span>
+      </div>
+      <p className="desc">Basketball built for the South Side. Leagues, runs, and player development for every generation.</p>
+      <Link to="/outsouth-basketball-league/" className="cta h">Enter MegCity Hoops →</Link>
+    </div>
+  </div>
+
+</div>
+
+
+    </>
+  );
 }
