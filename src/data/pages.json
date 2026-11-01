@@ -1,1 +1,392 @@
-{"chicago-street-soccer-tournament": {"id": 189, "title": "Street Soccer Tournament", "parent": null, "blocks": [{"t": "image", "src": "uploads/2024/07/Chicago-Street-Soccer-Tournament-3.png", "link": null}, {"t": "button", "text": "REGISTER TODAY!", "url": "https://tekkerz.co/register-street-soccer-tournament/"}, {"t": "html", "html": "<h1><strong>Street Soccer Is Where Legends Are Made</strong></h1>\n<p>Played on hard courts throughout the city, we are excited to witness the crowning of Chicago's Street Champions.</p>\n<p>Join us for 6 days and 7 rounds of exciting 5v5 games.</p>"}, {"t": "image", "src": "uploads/2024/07/Street-Soccer-Schedule-2-1.png", "link": null}, {"t": "video", "url": "https://www.youtube.com/watch?v=XHOmBV4js_E"}, {"t": "html", "html": "<h1><strong>Chicago's most talented players will be battling it out.</strong></h1><div><strong> </strong></div><h1><strong> This will be must see action!</strong></h1>"}]}, "1v1": {"id": 192, "title": "1v1", "parent": null, "blocks": [{"t": "image", "src": "uploads/2024/07/Untitled-design-1.png", "link": null}, {"t": "html", "html": "<p>Sign up and be on the lookout for our next 1v1. They will be held in Chicago, DC, Houston, and Miami. </p>"}, {"t": "embed", "widget": "hubspot-form", "settings": {}}]}, "chicago-street-soccer-music-festival": {"id": 190, "title": "Music Festival", "parent": null, "blocks": [{"t": "image", "src": "uploads/2024/07/Purple-and-Pink-Modern-Music-Festival-Presentation-2.png", "link": null}, {"t": "button", "text": "Buy Tickets!", "url": "tekkerz.co/chicago-street-soccer-music-festival-tickets"}, {"t": "heading", "text": "Local artists, Inflatables, Street Soccer, Art, Food &amp; More!<h5 style=\"font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: var(--theme-heading-font-weight); font-size: var(--theme-h5-font-size); line-height: var(--theme-heading-font-line-height); font-family: Montserrat, sans-serif; letter-spacing: normal; text-align: center; white-space-collapse: collapse;\"></h5>", "tag": "h2", "url": null}, {"t": "heading", "text": "Location: <br><br>Washington Park, Chicago", "tag": "h2", "url": null}, {"t": "heading", "text": "Festival Date:<br><br>October 5th, 2024\n", "tag": "h2", "url": null}, {"t": "map", "address": "5531 S Martin Luther King Dr, Chicago, IL 60615"}, {"t": "html", "html": "<h3>Come enjoy the Chicago Street Soccer Tournament Championship and see which team takes home $10,000!</h3>"}, {"t": "heading", "text": "Artists", "tag": "h2", "url": null}, {"t": "embed", "widget": "lakit-team-member", "settings": {}}]}, "chicago-street-soccer-music-festival-tickets": {"id": 398, "title": "Chicago Street Soccer & Music Festival Tickets", "parent": null, "blocks": [{"t": "image", "src": "uploads/2024/07/AdobeStock_756697615-scaled.jpeg", "link": null}, {"t": "heading", "text": "Chicago Street Soccer <br>&amp; Music Festival<br>October 5th, 2024", "tag": "h2", "url": null}, {"t": "html", "html": "<p>Adult Tickets 18 + (21+ to drink):           <strong>$40.00</strong></p>"}, {"t": "button", "text": "Buy Tickets", "url": "https://tekkerz.co/product/chicago-music-festival-tickets-adult/"}, {"t": "html", "html": "<p>Kids Tickets 17 and Under:                    <strong>$20.00</strong></p>"}, {"t": "button", "text": "Buy Tickets", "url": "https://tekkerz.co/product/chicago-music-festival-tickets-for-kids-17-and-under/"}]}, "get-involved-registration-form": {"id": 400, "title": "Get Involved Registration Form", "parent": null, "blocks": [{"t": "embed", "widget": "hubspot-form", "settings": {}}]}, "vendor-application-2": {"id": 573, "title": "Vendor Application", "parent": null, "blocks": [{"t": "embed", "widget": "hubspot-form", "settings": {}}]}, "weekly-events-registration-form": {"id": 746, "title": "Weekly Events Registration Form", "parent": null, "blocks": [{"t": "embed", "widget": "hubspot-form", "settings": {}}]}, "events": {"id": 1261, "title": "Events", "parent": null, "blocks": [{"t": "heading", "text": "UpComing Events", "tag": "h2", "url": null}, {"t": "embed", "widget": "slider_revolution", "settings": {}}, {"t": "button", "text": "Don't Miss Out!", "url": "https://share-na2.hsforms.com/24czJ3XBDQQivOTekNBCf7A40hjw0"}, {"t": "html", "html": "<p>From watch parties and tournaments to pop-up shops and community collaborations - we're here to bring the love of the game to everyone, with connection and neighborhood focus at the forefront. <span style=\"font-family: 'League Spartan', sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400;\">Stay in the loop and join us at our next event! </span>Our partners at <a href=\"https://www.instagram.com/___crossbar___/?hl=en\">Crossbar</a> and <a href=\"https://www.instagram.com/chicagowoso/?hl=en\">Chicago Women's Soccer</a> continue to inspire and uplift the Chicago soccer community. Want to collaborate or partner in 2026? Email us at remy@tekkerz.co. </p>"}, {"t": "divider"}, {"t": "heading", "text": "Past Events", "tag": "h2", "url": null}, {"t": "embed", "widget": "lakit-events", "settings": {}}, {"t": "gallery", "images": ["uploads/2025/04/IMG_5281.jpg", "uploads/2025/04/IMG_5282.jpg", "uploads/2026/01/IMG_5283.jpg", "uploads/2026/01/IMG_5280.jpg", "uploads/2026/01/IMG_5279.jpg"]}, {"t": "image", "src": "uploads/2026/01/Vendor-Announcement.png", "link": null}, {"t": "heading", "text": "Chicago Street soccer + music Festival 2024", "tag": "h6", "url": null}, {"t": "video", "url": "https://www.youtube.com/watch?v=XHOmBV4js_E"}]}, "advertise": {"id": 1712, "title": "Advertise", "parent": null, "blocks": [{"t": "image", "src": "uploads/2025/05/shanel-p-XKGm4W6421M-unsplash-scaled.jpg", "link": null}, {"t": "heading", "text": "advertise", "tag": "h2", "url": null}, {"t": "image", "src": "uploads/2025/05/chi-street-siccer-05-scaled.png", "link": null}, {"t": "html", "html": "<p> </p><p> </p><p>Tekkerz creates events that engage soccer fans in unique ways position your brand to highly engaged soccer fans. </p>"}]}, "our-team": {"id": 1795, "title": "Our Team", "parent": null, "blocks": [{"t": "image", "src": "uploads/2025/04/unnamed.jpg", "link": null}, {"t": "html", "html": "<p><strong>Esther Okuro (she/her)</strong></p><p><strong>Director of Training &amp; Development</strong></p><p class=\"\" data-start=\"95\" data-end=\"519\">Hailing from Kenya, Esther brings 25 years of playing experience and a deep passion for the game. Her coaching journey began at Oakwood University as a Tactical Coach, where she helped lead the program’s transition to Division II and supported HBCU tournament development. Esther has coached with Major League Soccer clubs for four consecutive seasons, working with youth aged 2–14 across all skill levels.</p><p class=\"\" data-start=\"521\" data-end=\"794\">She’s collaborated with coaches from the Premier League’s Fulham Academy, West Ham, and the Ireland National Football Association. A US Soccer–licensed coach and standout defender known for her interceptions and assists, Esther is committed to giving back through the game.</p>"}, {"t": "divider"}, {"t": "html", "html": "<p><strong>Ezra Owjang (he/him)</strong></p><p><strong>Director of Programming</strong></p><p><span style=\"font-weight: 400;\">Ezra is a former college soccer player at Oakwood University. He built his career through developing his skills in the streets, spending little time with a club or organization. Ezra has always been self taught and self-driven, having built business and jumping into technology consulting. He has always stayed involved in soccer through different avenues - volunteering as a coach, developing soccer programming for various organizations, and now leading Tekkerz programming. </span></p>"}, {"t": "image", "src": "uploads/2025/04/ezra-okuro.jpg", "link": null}, {"t": "divider"}, {"t": "image", "src": "uploads/2025/05/WIN_20250516_13_44_17_Pro.jpg", "link": null}, {"t": "html", "html": "<p><strong>Remy Schroeder (they/them)</strong></p>\n<p><strong>Director of Operations</strong></p>\n<p class=\"\" data-start=\"189\" data-end=\"492\">Remy brings a unique blend of experience across education, coaching, nonprofit management, and operations strategy. With a background in teaching and youth development, they have led both classroom and field-based programs that center growth, equity, and impact.</p>\n<p class=\"\" data-start=\"494\" data-end=\"796\">As a nonprofit leader and consultancy team member, Remy has designed and scaled programs that serve communities with intention and sustainability. At Tekkerz, they lead day-to-day operations, program development, and team coordination—ensuring every initiative runs with purpose, precision, and people at the center.</p>"}]}, "na": {"id": 2063, "title": "NA", "parent": null, "blocks": [{"t": "embed", "widget": "slider_revolution", "settings": {}}, {"t": "html", "html": "<p><strong>Camps</strong></p><p>McKinley Park</p>"}, {"t": "html", "html": "<p><strong>Personal Training</strong></p>"}, {"t": "html", "html": "<p><strong>Team Training</strong></p><p> </p><p> </p><p>coming soon..... 🔜</p>"}]}, "partners": {"id": 2676, "title": "Partners & Sponsors", "parent": "events", "blocks": [{"t": "html", "html": "<p data-start=\"253\" data-end=\"413\">Tekkerz is built through strong partnerships with local businesses, organizations, and community champions who believe in accessible, neighborhood-based soccer.</p><p data-start=\"415\" data-end=\"453\">Our partners help make it possible to:</p><ul data-start=\"454\" data-end=\"663\"><li data-start=\"454\" data-end=\"496\"><p data-start=\"456\" data-end=\"496\">Keep programs affordable and welcoming</p></li><li data-start=\"497\" data-end=\"542\"><p data-start=\"499\" data-end=\"542\">Activate play in South Side neighborhoods</p></li><li data-start=\"543\" data-end=\"599\"><p data-start=\"545\" data-end=\"599\">Invest in youth development and community connection</p></li><li data-start=\"600\" data-end=\"663\"><p data-start=\"602\" data-end=\"663\">Create meaningful visibility for local brands through sport</p></li></ul><p data-start=\"665\" data-end=\"767\">We’re proud to work alongside partners who share our commitment to equity, community, and opportunity.</p>"}, {"t": "gallery", "images": ["uploads/2026/01/crossbar-s.jpg", "uploads/2026/01/crossbar.jpg", "uploads/2026/01/cwoso.jpg", "uploads/2026/01/B-2.png"]}, {"t": "heading", "text": "Partner with tekkerz", "tag": "h3", "url": null}, {"t": "html", "html": "<p data-start=\"798\" data-end=\"989\">We’re always excited to collaborate with new partners — from small local businesses to larger brands — who want to make a real impact while reaching engaged players, families, and supporters.</p><p data-start=\"991\" data-end=\"1029\"><strong data-start=\"991\" data-end=\"1029\">Partnership opportunities include:</strong></p><ul data-start=\"1030\" data-end=\"1190\"><li data-start=\"1030\" data-end=\"1065\"><p data-start=\"1032\" data-end=\"1065\">Program and league sponsorships</p></li><li data-start=\"1066\" data-end=\"1102\"><p data-start=\"1068\" data-end=\"1102\">Event and live-stream visibility</p></li><li data-start=\"1103\" data-end=\"1144\"><p data-start=\"1105\" data-end=\"1144\">Digital promotion and branded content</p></li><li data-start=\"1145\" data-end=\"1190\"><p data-start=\"1147\" data-end=\"1190\">Community activation and on-site presence</p></li></ul><p data-start=\"1192\" data-end=\"1315\">Interested in partnering with us or sponsoring a program?<br data-start=\"1249\" data-end=\"1252\" />📩 <strong data-start=\"1255\" data-end=\"1288\">Email Remy at <a class=\"decorated-link cursor-pointer\" rel=\"noopener\" data-start=\"1271\" data-end=\"1286\">remy@tekkerz.co</a></strong> to start the conversation.</p>"}]}}
+{
+  "chicago-street-soccer-tournament": {
+    "id": 189,
+    "title": "Street Soccer Tournament",
+    "parent": null,
+    "blocks": [
+      {
+        "t": "image",
+        "src": "uploads/2024/07/Chicago-Street-Soccer-Tournament-3.png",
+        "link": null
+      },
+      {
+        "t": "button",
+        "text": "REGISTER TODAY!",
+        "url": "https://tekkerz.co/register-street-soccer-tournament/"
+      },
+      {
+        "t": "html",
+        "html": "<h1><strong>Street Soccer Is Where Legends Are Made</strong></h1>\n<p>Played on hard courts throughout the city, we are excited to witness the crowning of Chicago's Street Champions.</p>\n<p>Join us for 6 days and 7 rounds of exciting 5v5 games.</p>"
+      },
+      {
+        "t": "image",
+        "src": "uploads/2024/07/Street-Soccer-Schedule-2-1.png",
+        "link": null
+      },
+      {
+        "t": "video",
+        "url": "https://www.youtube.com/watch?v=XHOmBV4js_E"
+      },
+      {
+        "t": "html",
+        "html": "<h1><strong>Chicago's most talented players will be battling it out.</strong></h1><div><strong> </strong></div><h1><strong> This will be must see action!</strong></h1>"
+      }
+    ]
+  },
+  "1v1": {
+    "id": 192,
+    "title": "1v1",
+    "parent": null,
+    "blocks": [
+      {
+        "t": "image",
+        "src": "uploads/2024/07/Untitled-design-1.png",
+        "link": null
+      },
+      {
+        "t": "html",
+        "html": "<p>Sign up and be on the lookout for our next 1v1. They will be held in Chicago, DC, Houston, and Miami. </p>"
+      },
+      {
+        "t": "embed",
+        "widget": "hubspot-form",
+        "settings": {}
+      }
+    ]
+  },
+  "chicago-street-soccer-music-festival": {
+    "id": 190,
+    "title": "Music Festival",
+    "parent": null,
+    "blocks": [
+      {
+        "t": "image",
+        "src": "uploads/2024/07/Purple-and-Pink-Modern-Music-Festival-Presentation-2.png",
+        "link": null
+      },
+      {
+        "t": "button",
+        "text": "Buy Tickets!",
+        "url": "tekkerz.co/chicago-street-soccer-music-festival-tickets"
+      },
+      {
+        "t": "heading",
+        "text": "Local artists, Inflatables, Street Soccer, Art, Food &amp; More!<h5 style=\"font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: var(--theme-heading-font-weight); font-size: var(--theme-h5-font-size); line-height: var(--theme-heading-font-line-height); font-family: Montserrat, sans-serif; letter-spacing: normal; text-align: center; white-space-collapse: collapse;\"></h5>",
+        "tag": "h2",
+        "url": null
+      },
+      {
+        "t": "heading",
+        "text": "Location: <br><br>Washington Park, Chicago",
+        "tag": "h2",
+        "url": null
+      },
+      {
+        "t": "heading",
+        "text": "Festival Date:<br><br>October 5th, 2024\n",
+        "tag": "h2",
+        "url": null
+      },
+      {
+        "t": "map",
+        "address": "5531 S Martin Luther King Dr, Chicago, IL 60615"
+      },
+      {
+        "t": "html",
+        "html": "<h3>Come enjoy the Chicago Street Soccer Tournament Championship and see which team takes home $10,000!</h3>"
+      },
+      {
+        "t": "heading",
+        "text": "Artists",
+        "tag": "h2",
+        "url": null
+      },
+      {
+        "t": "embed",
+        "widget": "lakit-team-member",
+        "settings": {}
+      }
+    ]
+  },
+  "chicago-street-soccer-music-festival-tickets": {
+    "id": 398,
+    "title": "Chicago Street Soccer & Music Festival Tickets",
+    "parent": null,
+    "blocks": [
+      {
+        "t": "image",
+        "src": "uploads/2024/07/AdobeStock_756697615-scaled.jpeg",
+        "link": null
+      },
+      {
+        "t": "heading",
+        "text": "Chicago Street Soccer <br>&amp; Music Festival<br>October 5th, 2024",
+        "tag": "h2",
+        "url": null
+      },
+      {
+        "t": "html",
+        "html": "<p>Adult Tickets 18 + (21+ to drink):           <strong>$40.00</strong></p>"
+      },
+      {
+        "t": "button",
+        "text": "Buy Tickets",
+        "url": "https://tekkerz.co/product/chicago-music-festival-tickets-adult/"
+      },
+      {
+        "t": "html",
+        "html": "<p>Kids Tickets 17 and Under:                    <strong>$20.00</strong></p>"
+      },
+      {
+        "t": "button",
+        "text": "Buy Tickets",
+        "url": "https://tekkerz.co/product/chicago-music-festival-tickets-for-kids-17-and-under/"
+      }
+    ]
+  },
+  "get-involved-registration-form": {
+    "id": 400,
+    "title": "Get Involved Registration Form",
+    "parent": null,
+    "blocks": [
+      {
+        "t": "embed",
+        "widget": "hubspot-form",
+        "settings": {}
+      }
+    ]
+  },
+  "vendor-application-2": {
+    "id": 573,
+    "title": "Vendor Application",
+    "parent": null,
+    "blocks": [
+      {
+        "t": "embed",
+        "widget": "hubspot-form",
+        "settings": {}
+      }
+    ]
+  },
+  "weekly-events-registration-form": {
+    "id": 746,
+    "title": "Weekly Events Registration Form",
+    "parent": null,
+    "blocks": [
+      {
+        "t": "embed",
+        "widget": "hubspot-form",
+        "settings": {}
+      }
+    ]
+  },
+  "events": {
+    "id": 1261,
+    "title": "Events",
+    "parent": null,
+    "blocks": [
+      {
+        "t": "heading",
+        "text": "UpComing Events",
+        "tag": "h2",
+        "url": null
+      },
+      {
+        "t": "embed",
+        "widget": "slider_revolution",
+        "settings": {}
+      },
+      {
+        "t": "button",
+        "text": "Don't Miss Out!",
+        "url": "https://share-na2.hsforms.com/24czJ3XBDQQivOTekNBCf7A40hjw0"
+      },
+      {
+        "t": "html",
+        "html": "<p>From watch parties and tournaments to pop-up shops and community collaborations - we're here to bring the love of the game to everyone, with connection and neighborhood focus at the forefront. <span style=\"font-family: 'League Spartan', sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400;\">Stay in the loop and join us at our next event! </span>Our partners at <a href=\"https://www.instagram.com/___crossbar___/?hl=en\">Crossbar</a> and <a href=\"https://www.instagram.com/chicagowoso/?hl=en\">Chicago Women's Soccer</a> continue to inspire and uplift the Chicago soccer community. Want to collaborate or partner in 2026? Email us at remy@tekkerz.co. </p>"
+      },
+      {
+        "t": "divider"
+      },
+      {
+        "t": "heading",
+        "text": "Past Events",
+        "tag": "h2",
+        "url": null
+      },
+      {
+        "t": "embed",
+        "widget": "lakit-events",
+        "settings": {}
+      },
+      {
+        "t": "gallery",
+        "images": [
+          "uploads/2025/04/IMG_5281.jpg",
+          "uploads/2025/04/IMG_5282.jpg",
+          "uploads/2026/01/IMG_5283.jpg",
+          "uploads/2026/01/IMG_5280.jpg",
+          "uploads/2026/01/IMG_5279.jpg"
+        ]
+      },
+      {
+        "t": "image",
+        "src": "uploads/2026/01/Vendor-Announcement.png",
+        "link": null
+      },
+      {
+        "t": "heading",
+        "text": "Chicago Street soccer + music Festival 2024",
+        "tag": "h6",
+        "url": null
+      },
+      {
+        "t": "video",
+        "url": "https://www.youtube.com/watch?v=XHOmBV4js_E"
+      }
+    ]
+  },
+  "advertise": {
+    "id": 1712,
+    "title": "Advertise",
+    "parent": null,
+    "blocks": [
+      {
+        "t": "image",
+        "src": "uploads/2025/05/shanel-p-XKGm4W6421M-unsplash-scaled.jpg",
+        "link": null
+      },
+      {
+        "t": "heading",
+        "text": "advertise",
+        "tag": "h2",
+        "url": null
+      },
+      {
+        "t": "image",
+        "src": "uploads/2025/05/chi-street-siccer-05-scaled.png",
+        "link": null
+      },
+      {
+        "t": "html",
+        "html": "<p> </p><p> </p><p>Tekkerz creates events that engage soccer fans in unique ways position your brand to highly engaged soccer fans. </p>"
+      }
+    ]
+  },
+  "our-team": {
+    "id": 1795,
+    "title": "Our Team",
+    "parent": null,
+    "blocks": [
+      {
+        "t": "image",
+        "src": "uploads/2025/04/unnamed.jpg",
+        "link": null
+      },
+      {
+        "t": "html",
+        "html": "<p><strong>Esther Okuro (she/her)</strong></p><p><strong>Director of Training &amp; Development</strong></p><p class=\"\" data-start=\"95\" data-end=\"519\">Hailing from Kenya, Esther brings 25 years of playing experience and a deep passion for the game. Her coaching journey began at Oakwood University as a Tactical Coach, where she helped lead the program’s transition to Division II and supported HBCU tournament development. Esther has coached with Major League Soccer clubs for four consecutive seasons, working with youth aged 2–14 across all skill levels.</p><p class=\"\" data-start=\"521\" data-end=\"794\">She’s collaborated with coaches from the Premier League’s Fulham Academy, West Ham, and the Ireland National Football Association. A US Soccer–licensed coach and standout defender known for her interceptions and assists, Esther is committed to giving back through the game.</p>"
+      },
+      {
+        "t": "divider"
+      },
+      {
+        "t": "html",
+        "html": "<p><strong>Ezra Owjang (he/him)</strong></p><p><strong>Director of Programming</strong></p><p><span style=\"font-weight: 400;\">Ezra is a former college soccer player at Oakwood University. He built his career through developing his skills in the streets, spending little time with a club or organization. Ezra has always been self taught and self-driven, having built business and jumping into technology consulting. He has always stayed involved in soccer through different avenues - volunteering as a coach, developing soccer programming for various organizations, and now leading Tekkerz programming. </span></p>"
+      },
+      {
+        "t": "image",
+        "src": "uploads/2025/04/ezra-okuro.jpg",
+        "link": null
+      },
+      {
+        "t": "divider"
+      },
+      {
+        "t": "image",
+        "src": "uploads/2025/05/WIN_20250516_13_44_17_Pro.jpg",
+        "link": null
+      },
+      {
+        "t": "html",
+        "html": "<p><strong>Remy Schroeder (they/them)</strong></p>\n<p><strong>Director of Operations</strong></p>\n<p class=\"\" data-start=\"189\" data-end=\"492\">Remy brings a unique blend of experience across education, coaching, nonprofit management, and operations strategy. With a background in teaching and youth development, they have led both classroom and field-based programs that center growth, equity, and impact.</p>\n<p class=\"\" data-start=\"494\" data-end=\"796\">As a nonprofit leader and consultancy team member, Remy has designed and scaled programs that serve communities with intention and sustainability. At Tekkerz, they lead day-to-day operations, program development, and team coordination—ensuring every initiative runs with purpose, precision, and people at the center.</p>"
+      }
+    ]
+  },
+  "na": {
+    "id": 2063,
+    "title": "NA",
+    "parent": null,
+    "blocks": [
+      {
+        "t": "embed",
+        "widget": "slider_revolution",
+        "settings": {}
+      },
+      {
+        "t": "html",
+        "html": "<p><strong>Camps</strong></p><p>McKinley Park</p>"
+      },
+      {
+        "t": "html",
+        "html": "<p><strong>Personal Training</strong></p>"
+      },
+      {
+        "t": "html",
+        "html": "<p><strong>Team Training</strong></p><p> </p><p> </p><p>coming soon..... 🔜</p>"
+      }
+    ]
+  },
+  "partners": {
+    "id": 2676,
+    "title": "Partners & Sponsors",
+    "parent": "events",
+    "blocks": [
+      {
+        "t": "html",
+        "html": "<p data-start=\"253\" data-end=\"413\">Tekkerz is built through strong partnerships with local businesses, organizations, and community champions who believe in accessible, neighborhood-based soccer.</p><p data-start=\"415\" data-end=\"453\">Our partners help make it possible to:</p><ul data-start=\"454\" data-end=\"663\"><li data-start=\"454\" data-end=\"496\"><p data-start=\"456\" data-end=\"496\">Keep programs affordable and welcoming</p></li><li data-start=\"497\" data-end=\"542\"><p data-start=\"499\" data-end=\"542\">Activate play in South Side neighborhoods</p></li><li data-start=\"543\" data-end=\"599\"><p data-start=\"545\" data-end=\"599\">Invest in youth development and community connection</p></li><li data-start=\"600\" data-end=\"663\"><p data-start=\"602\" data-end=\"663\">Create meaningful visibility for local brands through sport</p></li></ul><p data-start=\"665\" data-end=\"767\">We’re proud to work alongside partners who share our commitment to equity, community, and opportunity.</p>"
+      },
+      {
+        "t": "gallery",
+        "images": [
+          "uploads/2026/01/crossbar-s.jpg",
+          "uploads/2026/01/crossbar.jpg",
+          "uploads/2026/01/cwoso.jpg",
+          "uploads/2026/01/B-2.png"
+        ]
+      },
+      {
+        "t": "heading",
+        "text": "Partner with tekkerz",
+        "tag": "h3",
+        "url": null
+      },
+      {
+        "t": "html",
+        "html": "<p data-start=\"798\" data-end=\"989\">We’re always excited to collaborate with new partners — from small local businesses to larger brands — who want to make a real impact while reaching engaged players, families, and supporters.</p><p data-start=\"991\" data-end=\"1029\"><strong data-start=\"991\" data-end=\"1029\">Partnership opportunities include:</strong></p><ul data-start=\"1030\" data-end=\"1190\"><li data-start=\"1030\" data-end=\"1065\"><p data-start=\"1032\" data-end=\"1065\">Program and league sponsorships</p></li><li data-start=\"1066\" data-end=\"1102\"><p data-start=\"1068\" data-end=\"1102\">Event and live-stream visibility</p></li><li data-start=\"1103\" data-end=\"1144\"><p data-start=\"1105\" data-end=\"1144\">Digital promotion and branded content</p></li><li data-start=\"1145\" data-end=\"1190\"><p data-start=\"1147\" data-end=\"1190\">Community activation and on-site presence</p></li></ul><p data-start=\"1192\" data-end=\"1315\">Interested in partnering with us or sponsoring a program?<br data-start=\"1249\" data-end=\"1252\" />📩 <strong data-start=\"1255\" data-end=\"1288\">Email Remy at <a class=\"decorated-link cursor-pointer\" rel=\"noopener\" data-start=\"1271\" data-end=\"1286\">remy@tekkerz.co</a></strong> to start the conversation.</p>"
+      }
+    ]
+  },
+  "pickups": {
+    "id": 3001,
+    "title": "Pickups",
+    "parent": null,
+    "blocks": [
+      {
+        "t": "html",
+        "html": "<p><strong>THE GAME IS ALWAYS ON.</strong></p><p>Tekkerz pickups are about getting people together to play. Open runs, neighborhood meetups and small-sided soccer — welcoming players who want to get touches, meet people and enjoy the game.</p><h2>Find your next run</h2><p>Follow Tekkerz on Instagram and TikTok for pickup announcements, locations, times and updates.</p><p><a href='https://www.instagram.com/tekkerzclub/' target='_blank' rel='noreferrer'>Instagram @tekkerzclub ↗</a></p><p><a href='https://www.tiktok.com/@tekkerzclub' target='_blank' rel='noreferrer'>TikTok @tekkerzclub ↗</a></p>"
+      }
+    ]
+  },
+  "culture": {
+    "id": 3002,
+    "title": "Culture",
+    "parent": null,
+    "blocks": [
+      {
+        "t": "html",
+        "html": "<p><strong>MORE THAN 90 MINUTES.</strong></p><p>Tekkerz lives where soccer meets music, fashion, creativity and community. We spotlight the people, places and ideas moving the game forward.</p><h2>What we're about</h2><ul><li><strong>1v1:</strong> individual battles, skills and competition.</li><li><strong>Tournaments:</strong> street soccer and small-sided formats.</li><li><strong>Festivals:</strong> sport, music, food, art and neighborhood energy.</li><li><strong>Media:</strong> player features, interviews, highlights and community stories.</li><li><strong>Collaborations:</strong> creative projects with local brands, artists and organizations.</li></ul><p>Follow along for new drops, event announcements and stories from the culture.</p><p><a href='https://www.instagram.com/tekkerzclub/' target='_blank' rel='noreferrer'>Instagram @tekkerzclub ↗</a> &nbsp; <a href='https://www.tiktok.com/@tekkerzclub' target='_blank' rel='noreferrer'>TikTok @tekkerzclub ↗</a></p>"
+      }
+    ]
+  }
+}

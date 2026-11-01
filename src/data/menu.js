@@ -1,33 +1,9 @@
-// Site-specific navigation
+// Tekkerz navigation: independent culture, pickup and event programming.
 export const MENU = [
-  {
-    "label": "Home",
-    "to": "/",
-    "children": []
-  },
-  {
-    "label": "Events",
-    "to": "/events",
-    "children": []
-  },
-  {
-    "label": "Street Soccer",
-    "to": "/chicago-street-soccer-tournament",
-    "children": []
-  },
-  {
-    "label": "1v1",
-    "to": "/1v1",
-    "children": []
-  },
-  {
-    "label": "Partners",
-    "to": "/partners",
-    "children": []
-  },
-  {
-    "label": "Advertise",
-    "to": "/advertise",
-    "children": []
-  }
+  { label: "Home", to: "/", children: [] },
+  { label: "Pickups", to: "/pickups", children: [] },
+  { label: "Events", to: "/events", children: [] },
+  { label: "Culture", to: "/culture", children: [] },
+  { label: "Partners", to: "/partners", children: [] },
+  { label: "Contact", to: "/contact", children: [] }
 ];
