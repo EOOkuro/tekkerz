@@ -7,7 +7,7 @@ body.is-home .site-header, body.is-home .site-footer{display:none;}
 .hero{min-height: min(820px,100vh);position:relative;overflow:hidden;display:flex;align-items:flex-end;padding:clamp(30px,6vw,92px);isolation:isolate;}
 .hero-image,.hero-shade{position:absolute;inset:0;z-index:-2;}
 .hero-image{background-size:cover;background-position:center;transform:scale(1.02);}
-.tk-image{background-image:url("https://tekkerz.co/wp-content/uploads/2026/03/52e50f6d-adcf-433a-8c2e-a6314cb60598.jpg");}
+.tk-image{background-image:url("https://res.cloudinary.com/zuywi9ih/image/upload/v1793326467/IMG_1494_Original.jpg");}
 .mc-image{background-image:url("https://res.cloudinary.com/zuywi9ih/image/upload/v1787265313/bbcf6854-2f12-4bdb-aead-fcdcb802d6ee.jpg");}
 .cbl-image{background-image:url("https://res.cloudinary.com/zuywi9ih/image/upload/f_auto,q_auto/african-american-teenage-boy-concentrated-playing-basketball");}
 .hero-shade{z-index:-1;background:linear-gradient(90deg,rgba(5,6,8,.88) 0%,rgba(5,6,8,.54) 52%,rgba(5,6,8,.12) 100%),linear-gradient(0deg,rgba(5,6,8,.75),transparent 55%);}
