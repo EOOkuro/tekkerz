@@ -7,6 +7,7 @@ export default function Footer() {
       <p className="foot-links">
         <Link to="/pickups">Pick-ups</Link>
         <Link to="/winter">Winter 26</Link>
+        <Link to="/shop">Shop</Link>
         <Link to="/events">Events</Link>
         <Link to="/culture">Culture</Link>
         <Link to="/partners">Partners</Link>

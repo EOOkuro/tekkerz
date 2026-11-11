@@ -16,3 +16,9 @@ npm run build
 - `src/data/programs.js`: links to MegCity, MegCity Futbol Training, the club, Chicago Futsal League, Chicago Super League, SMESL and Chicago Basketball League.
 - `public/photos/`: all site photos. `src/lib/photos.js` lists them and picks the banner photo for each generic page.
 - Colors live in `:root` at the top of `src/styles/global.css` (cream, paper/off-white, grey, ink/black, purple).
+
+## Shop (Snipcart)
+- Products are in `src/data/products.js`. Set a real `price` (0 means "Coming soon") and add `image: "/photos/file.jpg"` when you have photos.
+- `npm run dev` and `npm run build` regenerate `public/products.json`, which Snipcart reads to verify prices (the site is a single-page app, so Snipcart can't crawl the buttons directly).
+- Add your Snipcart public API key as `VITE_SNIPCART_KEY` (Vercel project settings, and a `.env` file locally). Create the key in test mode first.
+- In the Snipcart dashboard, set your domain and make sure the products JSON is reachable at `/products.json`.
