@@ -1,6 +1,6 @@
 # Tekkerz
 
-Independent Vite + React site extracted from the Tekkerz project.
+Vite + React site for tekkerz.co.
 
 ## Run locally
 ```bash
@@ -9,14 +9,10 @@ npm run dev
 npm run build
 ```
 
-Deploy this folder as its own Vercel project. Set the project's root directory to `tekkerz` if deploying from the combined repository.
-
-## Notes
-- This site has its own homepage, navigation, visual identity and page collection.
-- Original page content and WordPress-hosted media are retained where assigned to this brand.
-- Some original WordPress widgets/forms were placeholders in the source export and may need to be rebuilt before launch.
-
-
-## Tekkerz site update
-
-The homepage now introduces Tekkerz as an independent street-soccer and culture organization, then provides a directory for former programs. The main MegCity destination is intentionally marked as coming soon because no URL was supplied. Add its confirmed URL to `destinations` in `src/pages/Home.jsx` when available. Dedicated `/pickups` and `/culture` pages have been added; the existing `/events` page is retained. Social links point to @tekkerzclub on Instagram and TikTok.
+## What's where
+- `src/pages/Pickups.jsx` + `src/data/pickups.js`: free weekly pick-ups (May to October) with a map that follows the selected row. Edit times and places in `pickups.js`.
+- `src/pages/Winter.jsx`: Winter 26 recap gallery. `src/components/WinterTBA.jsx`: Winter 26/27 (Dec to Mar) locations TBA block, shown on the pick-ups and winter pages.
+- `src/pages/Contact.jsx`: contact form that emails eookuro@tekkerz.co through FormSubmit. The first submission after deploy sends an activation email to that address; click the link in it once and every message after that is delivered.
+- `src/data/programs.js`: links to MegCity, MegCity Futbol Training, the club, Chicago Futsal League, Chicago Super League, SMESL and Chicago Basketball League.
+- `public/photos/`: all site photos. `src/lib/photos.js` lists them and picks the banner photo for each generic page.
+- Colors live in `:root` at the top of `src/styles/global.css` (cream, paper/off-white, grey, ink/black, purple).

@@ -367,17 +367,6 @@
       }
     ]
   },
-  "pickups": {
-    "id": 3001,
-    "title": "Pickups",
-    "parent": null,
-    "blocks": [
-      {
-        "t": "html",
-        "html": "<p><strong>THE GAME IS ALWAYS ON.</strong></p><p>Tekkerz pickups are about getting people together to play. Open runs, neighborhood meetups and small-sided soccer — welcoming players who want to get touches, meet people and enjoy the game.</p><h2>Find your next run</h2><p>Follow Tekkerz on Instagram and TikTok for pickup announcements, locations, times and updates.</p><p><a href='https://www.instagram.com/tekkerzclub/' target='_blank' rel='noreferrer'>Instagram @tekkerzclub ↗</a></p><p><a href='https://www.tiktok.com/@tekkerzclub' target='_blank' rel='noreferrer'>TikTok @tekkerzclub ↗</a></p>"
-      }
-    ]
-  },
   "culture": {
     "id": 3002,
     "title": "Culture",
